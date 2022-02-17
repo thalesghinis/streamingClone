@@ -1,0 +1,43 @@
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: transparent;
+    transition: 0.5s;
+}
+
+header.black {
+    background-color: #141414;
+}
+
+.header--avatar {
+    background-image: url(../../../public/images/user.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.header--logo a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.header--logo--img {
+    /* background-image: url(../../../public/images/logobatman.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px; */
+}
